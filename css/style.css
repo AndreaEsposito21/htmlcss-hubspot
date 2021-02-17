@@ -7,9 +7,40 @@
 
 /* COMMON */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    padding: 0 20%;
 }
 /* HEADER */
+
+/* Nav */
+
+.col {
+    float: left;
+}
+
+.col-left {
+    width: 60%;
+     /* TEST */
+     height: 50px;
+     background-color: red;
+}
+
+.col-right {
+    width: 40%;
+     /* TEST */
+     height: 50px;
+     background-color: blue;
+}
 /* END HEADER */
 
 /* MAIN */
