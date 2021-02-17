@@ -15,7 +15,8 @@ body {
     background-color: #fe775a;
     border-radius: 5px;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 30px;
+    font-size: 14px;
 }
 
 .clearfix::after {
@@ -39,7 +40,7 @@ header a,i {
 
 header .h-top {
     background-color: #f4f9fd;
-    border-bottom: 1px solid #32495b;
+    border-bottom: 2px solid #32495b;
 }
 
 /* Nav */
@@ -51,7 +52,6 @@ header .h-top {
     vertical-align: middle;
 }
 
-/* Nav Top */
 /* Col Left */
 .col-left {
     width: 50%;
@@ -60,6 +60,10 @@ header .h-top {
 #contact-us {
     border-left: 1px solid #32495b;
     padding: 0 15px;
+}
+
+.col-left img {
+    margin: 20px 0;
 }
 
 /* Col Right */
@@ -77,19 +81,56 @@ header .h-top {
     margin: 20px 10px;
 }
 
+.navigator {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
 .login {
     color: #fe775a;
     border: 1px solid #fe775a;
     padding: 10px 20px;
     border-radius: 5px;
 }
-/* End Nav Top */
+/* End Nav */
 
-/* Nav Bot */
-.col-left img {
+/* Banner */
+.banner {
+    height: 550px;
+    background-color: #fff4ef;
+    background-image: url(../img/jumbotron.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 100% 200%;
+}
+
+.ban-ret {
+    height: 75px;
+    background-color: #afebe4;
+    border-top: 2px solid #32495b;
+    border-bottom: 2px solid #32495b;
+}
+
+.ban-text {
+    padding: 35px 500px 0 0;
+    color: #32495b;
+}
+
+.ban-text h1 {
+    font-size: 50px;
+}
+
+.ban-text p {
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.ban-text a {
     margin: 20px 0;
 }
-/* End Nav Bot */
+
+.ban-text h5 {
+    font-size: 10px;
 
 /* END HEADER */
 
