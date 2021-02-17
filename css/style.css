@@ -11,6 +11,13 @@ body {
     width: 100%;
 }
 
+.button {
+    background-color: #fe775a;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -20,27 +27,70 @@ body {
 .container {
     padding: 0 20%;
 }
+
+
 /* HEADER */
+header a,i {
+    display: inline-block;
+    margin: 30px 5px;
+    text-decoration: none;
+    color: #32495b;
+}
+
+header .h-top {
+    background-color: #f4f9fd;
+    border-bottom: 1px solid #32495b;
+}
 
 /* Nav */
-
 .col {
     float: left;
 }
 
-.col-left {
-    width: 60%;
-     /* TEST */
-     height: 50px;
-     background-color: red;
+.nav-top i {
+    vertical-align: middle;
 }
 
-.col-right {
-    width: 40%;
-     /* TEST */
-     height: 50px;
-     background-color: blue;
+/* Nav Top */
+/* Col Left */
+.col-left {
+    width: 50%;
 }
+
+#contact-us {
+    border-left: 1px solid #32495b;
+    padding: 0 15px;
+}
+
+/* Col Right */
+.col-right {
+    width: 50%;
+    text-align: right;
+}
+
+.fa-search {
+    color: #00a4bd;
+    margin: 0 20px;
+}
+
+.col-right a {
+    margin: 20px 10px;
+}
+
+.login {
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* End Nav Top */
+
+/* Nav Bot */
+.col-left img {
+    margin: 20px 0;
+}
+/* End Nav Bot */
+
 /* END HEADER */
 
 /* MAIN */
