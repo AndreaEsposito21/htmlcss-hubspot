@@ -12,7 +12,7 @@ body {
 }
 
 img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .button {
@@ -38,6 +38,14 @@ img {
     margin: 0 5%;
 }
 
+.two-col .col-sx{
+    width: 40%;
+}
+
+.two-col .col-dx{
+    width: 60%;
+}
+
 .container {
     padding: 0 20%;
 }
@@ -60,9 +68,12 @@ img {
 /* HEADER */
 header a,i {
     display: inline-block;
-    margin: 30px 5px;
     color: #32495b;
     text-decoration: none;
+}
+
+.fa-chevron-down, .fa-globe-europe {
+    margin: 30px 5px;
 }
 
 header .h-top {
@@ -182,11 +193,17 @@ header .h-top {
     font-size: 32px;
 }
 
-.text p {
-    margin: 30px 0;
+.text h3 {
+    margin: 7% 0;
+    font-size: 20px;
 }
 
-/* Row & columns */
+.text p {
+    margin: 30px 5px;
+    line-height: 30px;
+}
+
+/* Row*/
 .col-bg{
     background-color: white;
     border: 1px solid #e6ecf1;
@@ -194,39 +211,28 @@ header .h-top {
     margin-bottom: 5%;
 }
 
-.row {
-    height: 250px;
-    position: relative;
+
+.check-horizontal .check{
+    display: inline-block;
+    margin: 15px 10px;
 }
 
 .img-but {
-    position: absolute;
-    top: 20px;
-    left: 100px;
+    text-align: center;
 }
 
-.row .text {
-    position: absolute;
-    top: 20px;
-    left: 350px;
+#img-freehub {
+    margin: 20px 0;
 }
 
-#crm {
-    height: 40%;
-    
+.img-but a {
+    margin: 20px 130px;
 }
 
+/* Colonne */
 .col-bg img {
-    width: 50%;
+    height: 100px;
     margin: auto;
-}
-
-.text p {
-    line-height: 30px;
-}
-
-.text h3 {
-    margin: 30px 0;
 }
 
 .divider {
@@ -240,14 +246,31 @@ header .h-top {
     padding: 5% 3%;
 }
 
-.check {
-    
+span .check {
+    display: inline-block;
 }
 
-.circle {
-    color: #32495b;
+.check {
     font-size: 14px;
+    text-align: left;
 }
+
+.check i {
+    color: #fe775a;
+    margin-right: 20px;
+}
+
+.d-but {
+    padding: 40px 0;
+}
+
+/* Section Mid */
+
+.sec-mid .container {
+    height: 500px;
+    background-color: teal;
+}
+
 /* END MAIN */
 
 /* FOOTER */
