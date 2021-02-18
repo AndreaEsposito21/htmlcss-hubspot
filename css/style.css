@@ -268,7 +268,8 @@ span .check {
 
 .sec-mid .container {
     height: 500px;
-    background-color: teal;
+    background: rgb(0,212,255);
+    background: linear-gradient(16deg, rgba(0,212,255,1) 0%, rgba(9,118,121,1) 100%, rgba(2,0,36,1) 100%);
 }
 
 /* END MAIN */
