@@ -135,6 +135,16 @@ header .h-top {
 /* END HEADER */
 
 /* MAIN */
+
+/* Section Top */
+.sec-top {
+    background-color: #f4f9fd;
+
+    /* TEST */
+    /* height: 1000px;
+    width: 100%; */
+}
+
 /* END MAIN */
 
 /* FOOTER */
