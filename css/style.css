@@ -29,6 +29,10 @@ body {
     padding: 0 20%;
 }
 
+.text {
+    color: #32495b;
+    line-height: 30px;
+}
 
 /* HEADER */
 header a,i {
@@ -139,12 +143,45 @@ header .h-top {
 /* Section Top */
 .sec-top {
     background-color: #f4f9fd;
-
-    /* TEST */
-    /* height: 1000px;
-    width: 100%; */
 }
 
+.center {
+    text-align: center;
+    padding: 45px 50px;
+}
+
+.center img {
+    width: 30%;
+}
+
+.text h2 {
+    font-size: 32px;
+}
+
+.text p {
+    margin: 30px;
+}
+
+/* Row & Pillar */
+.row-pil *{
+    background-color: white;
+    border: 1px solid #e6ecf1;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.row {
+    height: 250px;
+}
+
+.row-pil .col {
+    width: 30%;
+    height: 500px;
+}
+
+.pil-center {
+    margin: 0 5%;
+}
 /* END MAIN */
 
 /* FOOTER */
