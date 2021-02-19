@@ -190,10 +190,11 @@ header .h-top {
 
 /* MAIN */
 
-/* Section Topper */
-.sec-top {
+main {
     background-color: #f4f9fd;
 }
+
+/* Section Topper */
 
 .center {
     text-align: center;
@@ -326,6 +327,10 @@ span .check {
 
 /* Section Bottom */
 
+.sec-bot .container{
+    padding-bottom: 50px;
+}
+
 /* Numb & logos */
 .sec-bot .col-dx img {
     height: 100px;
@@ -358,8 +363,11 @@ span .check {
 }
 /* END MAIN */
 
-
-
-
 /* FOOTER */
+
+footer .container {
+    background-color: #32495b;
+    /* test */
+    height: 600px;
+}
 /* END FOOTER */
