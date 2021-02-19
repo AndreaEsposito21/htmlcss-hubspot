@@ -31,6 +31,7 @@ img {
     clear: both;
 }
 
+/* Three Col */
 .three-col .col {
     width: 30%;
 }
@@ -38,6 +39,7 @@ img {
     margin: 0 5%;
 }
 
+/* Two Col */
 .two-col .col-sx{
     width: 40%;
 }
@@ -46,6 +48,10 @@ img {
     width: 60%;
 }
 
+/* Four Col */
+.single-col {
+    width: 25%;
+}
 .container {
     padding: 0 20%;
 }
@@ -267,11 +273,41 @@ span .check {
 /* Section Mid */
 
 .sec-mid .container {
-    height: 500px;
     background: rgb(0,212,255);
     background: linear-gradient(16deg, rgba(0,212,255,1) 0%, rgba(9,118,121,1) 100%, rgba(2,0,36,1) 100%);
 }
 
+.sec-mid .text {
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.sec-mid p {
+    font-size: 14px;
+}
+
+.single-col h5{
+    font-weight: 300;
+}
+
+.number {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.bord {
+    border-bottom: 1px solid white;
+}
+
+.bord-right {
+    border-right: 1px solid white;
+}
+
+.sec-mid .container {
+    padding-bottom: 70px;
+}
 /* END MAIN */
 
 /* FOOTER */
