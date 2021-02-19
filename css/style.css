@@ -36,6 +36,7 @@ body {
 .three-col .col:nth-child(2) {
     margin: 0 5%;
 }
+/* end */
 
 /* Two Col */
 .two-col .col-sx{
@@ -45,13 +46,28 @@ body {
 .two-col .col-dx{
     width: 60%;
 }
+/* end */
 
 /* Single Col */
 .single-col {
     width: 25%;
 }
+/* end */
+
+/* Four Col */
+
+.four-col .col {
+    margin-right: 1%;
+    width: 21%;
+}
+
+/* end */
 .container {
     padding: 0 20%;
+}
+
+a {
+    text-decoration: none;
 }
 
 .text {
@@ -173,7 +189,7 @@ header .h-top {
 
 .ban-text a {
     margin: 20px 0;
-    text-decoration: none;
+
 }
 
 .ban-text h2 {
@@ -369,5 +385,41 @@ footer .container {
     background-color: #32495b;
     /* test */
     height: 600px;
+}
+
+footer li {
+    list-style-type: none;
+}
+.four-col a {
+    color: #cbd6e2;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 40px;
+    
+}
+
+.four-col .a-int {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.test {
+    display: inline-block;
+}
+
+#but-two {
+    background-color: #dadee0;
+    border-radius: 5px;
+    color: #32495b;
+    padding: 3px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+li .fab {
+    color: #dadee0;
+    margin: 20px 13px;
 }
 /* END FOOTER */
