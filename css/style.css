@@ -173,6 +173,11 @@ header .h-top {
 
 .ban-text a {
     margin: 20px 0;
+    text-decoration: none;
+}
+
+.ban-text h2 {
+    font-size: 35px;
 }
 
 .ban-text h5 {
@@ -339,6 +344,18 @@ span .check {
 }
 /* End Numb & logos */
 
+.start-grow .col-l {
+    width: 70%;
+    padding-right: 25%;
+}
+
+.start-grow .col-r {
+    width: 30%;
+}
+
+.start-grow img {
+    height: 300px;
+}
 /* END MAIN */
 
 
