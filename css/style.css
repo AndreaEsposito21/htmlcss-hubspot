@@ -11,10 +11,6 @@ body {
     width: 100%;
 }
 
-img {
-    /* width: 100%; */
-}
-
 .button {
     background-color: #fe775a;
     border-radius: 5px;
@@ -48,7 +44,7 @@ img {
     width: 60%;
 }
 
-/* Four Col */
+/* Single Col */
 .single-col {
     width: 25%;
 }
@@ -181,7 +177,7 @@ header .h-top {
 
 /* MAIN */
 
-/* Section Top */
+/* Section Topper */
 .sec-top {
     background-color: #f4f9fd;
 }
@@ -209,7 +205,7 @@ header .h-top {
     line-height: 30px;
 }
 
-/* Row*/
+/* Two col */
 .col-bg{
     background-color: white;
     border: 1px solid #e6ecf1;
@@ -270,7 +266,7 @@ span .check {
     padding: 40px 0;
 }
 
-/* Section Mid */
+/* Section Middle */
 
 .sec-mid .container {
     background: rgb(0,212,255);
@@ -308,6 +304,10 @@ span .check {
 .sec-mid .container {
     padding-bottom: 70px;
 }
+
+/* Section Bottom */
+
+
 /* END MAIN */
 
 /* FOOTER */
