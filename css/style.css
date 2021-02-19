@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* COMMON */
 body {
     font-family: 'Roboto', sans-serif;
@@ -66,6 +68,9 @@ body {
 .text-cen {
     text-align: center;
 }
+
+
+
 
 /* HEADER */
 header a,i {
@@ -175,6 +180,9 @@ header .h-top {
 }
 /* END HEADER */
 
+
+
+
 /* MAIN */
 
 /* Section Topper */
@@ -266,6 +274,9 @@ span .check {
     padding: 40px 0;
 }
 
+/* End Section Topper */
+
+
 /* Section Middle */
 
 .sec-mid .container {
@@ -305,10 +316,33 @@ span .check {
     padding-bottom: 70px;
 }
 
+/* End Section Middle */
+
+
 /* Section Bottom */
 
+/* Numb & logos */
+.sec-bot .col-dx img {
+    height: 100px;
+    display: inline-block;
+    width: 100%;
+    object-fit: contain;
+    padding: 0px 10px;
+}
+
+.sec-bot .two-col {
+    padding: 50px;
+}
+
+.sec-bot .col-sx .text div{
+    margin: 10px 0;
+}
+/* End Numb & logos */
 
 /* END MAIN */
+
+
+
 
 /* FOOTER */
 /* END FOOTER */
