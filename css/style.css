@@ -104,6 +104,16 @@ header .h-top {
     border-bottom: 2px solid #32495b;
 }
 
+.topper-white {
+    height: 80px;
+    width: 100%;
+}
+
+.h-top {
+    position: fixed;
+    width: 100%;
+}
+
 /* Nav */
 .col {
     float: left;
@@ -243,6 +253,12 @@ main {
     margin-bottom: 5%;
 }
 
+.bar::after {
+    content: "";
+    background-color: #32495b;
+    width: 2px;
+    height: 2px;
+}
 
 .check-horizontal .check{
     display: inline-block;
@@ -427,7 +443,7 @@ li .fab {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #dadee0;
+    border-bottom: 1px solid #cbd6e2;
 }
 
 .separatore a {
